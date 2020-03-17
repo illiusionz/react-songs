@@ -3,7 +3,7 @@ import { selectSong } from '../actions';
 import SongList from './SongList.js'
 import SongDetail from './SongDetail';
 
-const App = () => {
+const App = () => {  
    return (
       <div className="ui container grid">
          <div className="ui row">

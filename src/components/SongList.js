@@ -30,7 +30,7 @@ class SongList extends Component {
 
 // State Object connected with Redux - gets re-runed when button is clicked   
 const mapStateToProps = state => {
-   console.log(state);
+    console.log(state);
     return {songs: state.songs};
 }
 
