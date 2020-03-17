@@ -5,4 +5,10 @@ export const selectSong = song => {
       payload: song
     };
  };
- 
+
+ export const deleteSong = () => {
+   return {
+      type:'DELETE_SONG'
+   };
+ };
+  
